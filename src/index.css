@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&family=Orbitron&family=Turret+Road:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+:root {
+    --red: rgb(255, 0, 0);
+}
+
+.menu-row {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.col-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.menu-text {
+    display: flex;
+}
+
+.menu-links h1 {
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    margin-bottom: 25px;
+    border-bottom: 3px solid black;
+    text-transform: capitalize;
+}
+
+.menu-links h1:hover {
+    text-shadow: 1px 2px 3px var(--red);
+    border-bottom: 3px solid var(--red);
+}
+
+.menu-text p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* .red-line{
+    background: rgb(0, 0, 0);
+    height: 0.7vh;
+    width: 280px;
+    transform: translate(110px, 135px) rotate(-90deg);
+    border-radius: 50px;
+} */
+
+a {
+    text-decoration: none !important;
+}
+
+.menu-two img {
+    width: 45%;
+}
+
+.link {
+    color: black;
+    font-weight: 500;
+}
+
+.socials {
+    display: flex;
+    font-size: 25px;
+    gap: 40px;
+}
+
+.menu-soc a {
+    color: black;
+}
+
+.socials i {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.socials a:hover {
+    text-shadow: 1px 2px 3px var(--red),
+        3px 3px 1px var(--red);
+}
+
+.home {
+    background: black;
+}
+
+.brand-img {
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Hurricane', cursive;
+    color: var(--red);
+    text-shadow: 1px 2px 5px var(--red),
+        1px 1px 3px var(--red);
+}
+
+.menu-btn {
+    margin-left: 85%;
+}
+
+.menu-btn:hover {
+    text-shadow: 1px 2px 3px var(--red),
+        3px 3px 1px var(--red);
+}
+
+.home-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+}
+
+.home-text {
+    color: var(--red);
+    text-shadow: 0px 0px 10px var(--red),
+        2px 2px 3px var(--red);
+    text-align: center;
+}
+
+.home-text h1 {
+    font-size: 45px;
+}
+
+.home-text p {
+    font-size: 20px;
+}
+
+.span-color {
+    color: var(--red) !important;
+
+}
+
+.about-img {
+    height: 250px;
+    width: 250px;
+    object-fit: contain;
+}
+
+.skills-img {
+    width: 70px !important;
+    height: 70px !important;
+    margin-bottom: 50px;
+}
+
+.skills {
+    background: linear-gradient(-45deg, #000000, var(--red), #000000);
+    background-size: 300% 300%;
+    animation: Back 15s infinite ease;
+}
+
+@keyframes Back {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.card {
+    color: #fff !important;
+    background: #242424 !important;
+}
+
+.about-your-text {
+    font-size: 20px;
+}
+
+.btn-primary {
+    border: 2px solid var(--red) !important;
+    background: transparent !important;
+    color: var(--red) !important;
+    border-radius: 10% !important;
+}
+
+.btn-primary:hover {
+    text-shadow: 1px 2px 3px var(--red),
+        1px 3px 3px;
+}
+
+.projects {
+    height: 90vh;
+}
+
+.projects-main {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer {
+    background-color: #000000;
+    height: 100%;
+}
+
+.footer-du {
+    padding-top: 30px;
+}
+
+.footer-soc {
+    margin-left: 45%;
+}
+
+.footer-soc a {
+    color: var(--red);
+}
+
+.form-outline input {
+    border-bottom: 3px solid black !important;
+    border-radius: 0px;
+}
+
+.fote .brand-img{
+    font-size: 22px !important;
+}
+
+.picture {
+    object-fit: cover;
+    width: 100%;
+    height: 400px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+input[type=text] {
+    outline: none !important;
+    box-shadow: 0 !important;
+    border-top: 0px solid black !important;
+    border-right: 0px solid black !important;
+    border-left: 0px solid black !important;
+    border-bottom: 3px solid black !important;
+}
+
+input[type=text]:focus {
+    box-shadow: 0 0 0 !important;
+    border-bottom: 3px solid var(--red) !important;
+}
+
+textarea {
+    border-top: 0 !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-bottom: 3px solid black !important;
+    border-radius: 0 !important;
+}
+
+textarea:focus {
+    box-shadow: 0 0 0 !important;
+    border-bottom: 3px solid var(--red) !important;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .footer-soc {
+        margin-left: 0%;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .projects {
+        height: 100%;
+    }
+
+    .footer-soc {
+        text-align: center !important;
+    }
+
+    .fote {
+        text-align: center !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .menu-btn {
+        margin-right: 5%;
+    }
+
+    .home-text h1 {
+        font-size: 30px;
+    }
+
+    .home-text p {
+        font-size: 15px !important;
+    }
+
+    .col-menu .menu-two {
+        text-align: center;
+    }
+
+    .col-menu .menu-two .socials {
+        margin-left: 100px;
+    }
+
+    .hello {
+        font-size: 30px !important;
+    }
+
+    .picture {
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width: 476px) {
+
+    .brand-img{
+        font-size: 25px !important;
+    }
+
+    .col-menu .menu-two .socials {
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .footer-img {
+        width: 90% !important;
+    }
+
+    .hello {
+        font-size: 25px !important;
+        color: var(--red);
+    }
+}
+
+.hello-page {
+    background: #000000;
+}
+
+.hello {
+    letter-spacing: 22px;
+    font-size: 55px;
+    font-weight: 700;
+    transition: all 3s;
+    animation: Blur 5s ease-out;
+    color: var(--red);
+}
+
+@keyframes Blur {
+    0% {
+        color: #000000;
+        font-size: 35px;
+    }
+
+    100% {
+        color: var(--red);
+        text-shadow: 1px 2px 3px rgb(0, 0, 0),
+            2px 3px 4px var(--red);
+    }
+}
+
+.present {
+    background: #000000;
+    width: 100%;
+    height: 120%;
+}
+
+.bg-red {
+    background: var(--red) !important;
+    box-shadow: 15px 1px 10px var(--red), 10px 0px 10px var(--red), 5px 0px 5px var(--red);
+}
