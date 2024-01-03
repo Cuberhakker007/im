@@ -7,7 +7,7 @@ function Cards({array}) {
             <div className="card-body">
                 <h5 className="card-title">{array.Title}</h5>
                 <p className="card-text">{array.des}</p>
-                <a href={array.url} className="btn btn-primary">Go somewhere</a>
+                <a href={array.url} className="btn btn-primary">Learn more</a>
             </div>
         </div>
     </div>
