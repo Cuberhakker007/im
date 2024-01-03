@@ -21,10 +21,10 @@ function SMS() {
             <input type='text' className='form-control' placeholder='UserName...' />
         </div>
         <div className='col-md-6 col-sm-12 mb-3'>
-            <input type='text' className='form-control' placeholder='UserName...' />
+            <input type='text' className='form-control' placeholder='Email...' />
         </div>
         <div className='col-12 mb-3'>
-            <textarea className='form-control' placeholder='Men bu web saytni...'></textarea>
+            <textarea className='form-control' placeholder='Hello ...'></textarea>
         </div>
         <div className='col-md-2 col-sm-12'>
             <button className='btn btn-primary' type='submit'>Send message</button>
