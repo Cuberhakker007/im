@@ -176,6 +176,7 @@ a {
 
 .about-your-text {
     font-size: 20px;
+    width: auto;
 }
 
 .btn-primary {
@@ -324,6 +325,10 @@ textarea:focus {
 
     .col-menu .menu-two .socials {
         margin-left: 60px;
+    }
+
+    .about-your-text{
+        font-size: 17px;
     }
 }
 
