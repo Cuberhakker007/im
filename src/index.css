@@ -353,6 +353,7 @@ textarea:focus {
     font-size: 55px;
     font-weight: 700;
     transition: all 3s;
+    padding-left: 2%;
     animation: Blur 5s ease-out;
     color: var(--red);
 }
