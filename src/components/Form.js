@@ -19,24 +19,24 @@ function Form() {
     <div className='col-12'><h1>Contact <span className='span-color'>me</span></h1></div>
     <div className="col">
       <div data-mdb-input-init className="form-outline">
-        <input type="text" id="form6Example1" className="form-control" />
+        <input type="text" id="form6Example1" className="form-control" require/>
         <label className="form-label" htmlFor="form6Example1">First name</label>
       </div>
     </div>
     <div className="col">
       <div data-mdb-input-init className="form-outline">
-        <input type="text" id="form6Example2" className="form-control" />
+        <input type="text" id="form6Example2" className="form-control" require/>
         <label className="form-label" htmlFor="form6Example2">Last name</label>
       </div>
     </div>
   </div>
   <div data-mdb-input-init className="form-outline mb-4">
-    <input type="text" id="form6Example3" className="form-control" />
+    <input type="text" id="form6Example3" className="form-control" require/>
     <label className="form-label" htmlFor="form6Example3">Company name</label>
   </div>
 
   <div data-mdb-input-init className="form-outline mb-4">
-    <input type="text" id="form6Example4" className="form-control" />
+    <input type="text" id="form6Example4" className="form-control" require/>
     <label className="form-label" htmlFor="form6Example4">Address</label>
   </div>
 
