@@ -18,10 +18,10 @@ function SMS() {
             <h1>Support <span className='span-color'>me</span></h1>
         </div>
         <div className='col-md-6 col-sm-12 mb-3'>
-            <input type='text' className='form-control' placeholder='UserName...' />
+            <input type='text' className='form-control' placeholder='UserName...' require/>
         </div>
         <div className='col-md-6 col-sm-12 mb-3'>
-            <input type='text' className='form-control' placeholder='Email...' />
+            <input type='text' className='form-control' placeholder='Email...' require/>
         </div>
         <div className='col-12 mb-3'>
             <textarea className='form-control' placeholder='Hello ...'></textarea>
